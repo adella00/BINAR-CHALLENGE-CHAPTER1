@@ -75,7 +75,8 @@ nav ul li .register {
 }
 
 .ourservice-text-judul,
-.whyUs-judul h2 {
+.whyUs-judul h2,
+.testi-judul h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -100,6 +101,10 @@ nav ul li .register {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+}
+
+#testimonial-section .testi-content {
+  background-color: #f1f3ff;
 }
 
 @media only screen and (max-width: 575.98px) {
