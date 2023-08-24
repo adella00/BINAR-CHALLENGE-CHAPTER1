@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('font/Helvetica.ttf') format('truetype');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+nav ul li {
+  height: 36px;
+  font-weight: 400;
+}
+
+nav ul li .register {
+  font-weight: 700;
+  background-color: #5cb85f !important;
+  border-radius: 2px;
+  width: 81px;
+}
+
+.offcanvas-header h5 {
+  font-weight: 700;
+}
+
+#main-section {
+  background-color: #f1f3ff;
+  height: 100%;
+  margin-top: -76px;
+}
+
+.main-text-judul {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.main-btn {
+  font-weight: 700;
+  background-color: #5cb85f !important;
+  border-radius: 2px;
+}
+
+.main-img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.main-img-container img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
+.main-bg-img {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0d28a6;
+  border-radius: 60px 0px 0px 0px;
+}
+
+.ourservice-text-judul,
+.whyUs-judul h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#ourservice-section ul {
+  padding: 0;
+}
+
+#ourservice-section ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#ourservice-section ul li::before {
+  content: url('img/check.svg');
+  margin-right: 10px;
+}
+
+#whyUs-section .card-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .main-text {
+    padding-top: 90px;
+    padding-left: 10px;
+  }
+  .main-img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .whyUs-judul {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main-text {
+    padding-top: 90px;
+    padding-left: 10px;
+  }
+  .main-img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
