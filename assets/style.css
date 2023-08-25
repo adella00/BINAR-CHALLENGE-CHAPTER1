@@ -123,6 +123,17 @@ nav ul li .register {
   border-radius: 13px;
 }
 
+#footer .footer-nav {
+  font-weight: 400;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 @media only screen and (max-width: 575.98px) {
   .main-text {
     padding-top: 30px;
@@ -200,7 +211,15 @@ nav ul li .register {
     padding: 0;
   }
 
+  .faq-judul {
+    text-align: center;
+  }
+
   .accordion {
     margin-top: 20px !important;
+  }
+
+  .footer-nav ul li {
+    margin-bottom: 1rem;
   }
 }
