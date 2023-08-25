@@ -173,13 +173,13 @@ nav ul li .register {
     padding-top: 10px;
     padding-left: 10px;
   }
-
-  .whyUs-judul {
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 767px) {
+  .whyUs-judul {
+    text-align: center;
+  }
+
   .testi-text {
     margin-left: 30px;
     margin-right: 30px;
